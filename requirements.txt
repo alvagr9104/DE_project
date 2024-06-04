@@ -1,0 +1,6 @@
+pyspark
+pandas
+flask
+fastavro
+psycopg2-binary
+SQLAlchemy

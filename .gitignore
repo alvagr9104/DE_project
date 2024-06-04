@@ -7,6 +7,7 @@ __pycache__/
 *.so
 
 # Distribution / packaging
+.env
 .Python
 build/
 develop-eggs/
@@ -77,6 +78,10 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+
+# PySpark specific
+metastore_db/
+spark-warehouse/
 
 # IPython
 profile_default/
