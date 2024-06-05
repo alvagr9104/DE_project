@@ -1,12 +1,12 @@
 # DE_project
 
-This project demonstrates a big data migration process using Spark, Flask, and Avro. The project is divided into several parts:
+This project demonstrates a big data migration process using Spark, Flask, and Avro. The project is divided into three parts:
 
 1. Move historic data from CSV files to a new database.
-2. Create a REST API service to receive new data.
-3. Backup data in AVRO format.
-4. Restore data from AVRO backups.
+2. Backup data in AVRO format.
+3. Restore data from AVRO backups.
 
+The rows of the fact table that do not pass a validation rule are extracted from it and are logged.
 ## Project Structure
 
 - `data/` - Directory to store CSV files.
@@ -37,5 +37,6 @@ This project demonstrates a big data migration process using Spark, Flask, and A
 ## Notebooks
 
 1. **01_data_loading.ipynb**: Load CSV data, transform, and load into the new database.
-2. **Utilities.ipynb**: Import all the libraries and functions that will be used on the notebooks.
+2. **02_backup**: Backup the data in AVRO files.
+3. **Utilities.ipynb**: Import all the libraries and functions that will be used on the notebooks.
 
