@@ -1,6 +1,11 @@
 pyspark
 pandas
-flask
-fastavro
-psycopg2-binary
-SQLAlchemy
+sqlalchemy
+psycopg2
+logging
+datetime
+os
+json
+avro.schema
+avro.io
+avro.datafile
